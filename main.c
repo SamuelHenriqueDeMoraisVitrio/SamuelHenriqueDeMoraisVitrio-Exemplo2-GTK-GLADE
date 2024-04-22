@@ -16,7 +16,7 @@ void on_click_clicked(GtkWidget *widget, gpointer data){
 
   float float_p = atof(str_peso);
 
-  printf("\n\t%d\n\n", float_p);
+  printf("\n\t%.1f\n\n", float_p);
 }
 
 void on_telaP_destroy(){
