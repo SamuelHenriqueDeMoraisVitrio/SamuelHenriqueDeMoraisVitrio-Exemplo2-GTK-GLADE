@@ -15,5 +15,5 @@ clear:
 	rm -f EXE .IU.glade.swp .main.c.swp
 	clear
 
-start:
+run:
 	@$(START)
